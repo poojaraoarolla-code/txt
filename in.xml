@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<homepage language="en">
+    
+    <!-- Website Branding -->
+    <metadata>
+        <title>My Sample XML Homepage</title>
+        <logoText>MyXMLSite</logoText>
+        <copyrightYear>2026</copyrightYear>
+    </metadata>
+
+    <!-- Navigation Menu Links -->
+    <navigation>
+        <link target="#home">Home</link>
+        <link target="#about">About</link>
+        <link target="#services">Services</link>
+        <link target="#contact">Contact</link>
+    </navigation>
+
+    <!-- Hero / Showcase Section -->
+    <heroSection>
+        <headline>Welcome to Our XML-Driven Site</headline>
+        <subheading>Separating raw data from visual presentation for maximum flexibility.</subheading>
+        <ctaButton action="#signup">Get Started</ctaButton>
+        <backgroundImage url="https://picsum.photos" />
+    </heroSection>
+
+    <!-- Main Features / Grid Content -->
+    <featuresSection title="Our Core Strengths">
+        
+        <feature id="f1">
+            <title>Structured Data</title>
+            <description>XML tags cleanly organize content so it can easily feed into websites, apps, or databases.</description>
+        </feature>
+        
+        <feature id="f2">
+            <title>Highly Portable</title>
+            <description>Because it is plain text, XML data flows seamlessly between different software platforms.</description>
+        </feature>
+        
+        <feature id="f3">
+            <title>Custom Layouts</title>
+            <description>Style this data any way you like using XSLT stylesheets or modern JavaScript frameworks.</description>
+        </feature>
+        
+    </featuresSection>
+
+    <!-- Footer Dynamic Elements -->
+    <footer>
+        <disclaimer>All rights reserved. Powered by pure data.</disclaimer>
+    </footer>
+
+</homepage>
